@@ -34,14 +34,10 @@ const About = () => {
           and currently I am studying at Vilnius SMK.
           </h3>
           <p className='mb-6'>
-            I'm passionate about building computers and gained experience in fixing and creating systems
-            from scratch. With a strong background in video editing, 
-            I've worked on exciting projects using Vegas Pro, a popular editing program.
-          </p>
-          <p className='mb-6'> 
-             In the past three years, I've improved my programming skills in C, C++, Java, Python, and C#.
-             I've also worked on Android Studio projects and now exploring game development with Unity Engine. 
-             I'm passionate about technology and eager to learn more, offering a diverse skill set that adds value to any team.
+            In the past three years, I've honed my programming programming skills in C, C++, Java, Python, and C# languages and 
+            delved into game development with Unity Engine. 
+            I also have experience in building computers and video editing using Vegas Pro. 
+            My diverse skill set and passion for technology make me a valuable addition to any team.
           </p>
           {/*sugebejimai*/}
           <div className='flex gap-x-6 lg:gap-x-10 mb-12'>
