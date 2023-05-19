@@ -30,24 +30,31 @@ const Contact = () => {
         initial='hidden'
         whileInView={'show'}
         viewport={{ once: false, amount: 0.3}}
-        name="contact" netlify
+        name="contact"
+        netlify
         className='flex-1 border rounded-2xl flex flex-col gap-y-6 pb-24 p-6 items-start'
         >
-            <input 
+          <label>
+          <input 
             className='bg-transparent border-b py-3 outline-none w-full placeholder:text-white focus:border-accent transition-all' 
             type="text" name="name" required
             placeholder='Your name'
           />
+           </label>
+          <label>
           <input 
             className='bg-transparent border-b py-3 outline-none w-full placeholder:text-white focus:border-accent transition-all' 
             type="email" name="email" required 
             placeholder='Your email'
           />
+          </label>
+          <label>
           <textarea className='bg-transparent border-b py-12 outline-none w-full placeholder:text-white focus:border-accent transition-all resize-none mb-12' 
             placeholder='Your message'
             type="text" name="message" required
           >
           </textarea>
+          </label>
           <button className='btn btn-lg' type="submit">Send message</button>
         </motion.form>
       </div>
