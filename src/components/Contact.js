@@ -34,15 +34,8 @@ const Contact = () => {
         name="contact"
         method="POST"
         data-netlify="true"
-        onSubmit="submit"
-        data-netlify-honeypot="bot-field"
         className='flex-1 border rounded-2xl flex flex-col gap-y-6 pb-24 p-6 items-start'
         >
-          <input 
-            type="hidden" 
-            name="form" 
-            value="contact" 
-          />
           <input 
             className='bg-transparent border-b py-3 outline-none w-full placeholder:text-white focus:border-accent transition-all' 
             type="text" name="name" required
