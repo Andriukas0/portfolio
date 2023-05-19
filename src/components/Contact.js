@@ -31,12 +31,18 @@ const Contact = () => {
         whileInView={'show'}
         viewport={{ once: false, amount: 0.3}}
         //action='https://formsubmit.co/af9221e43fb63fabbc97ae54a84b9005'
-        name="Contact"
+        name="contact"
         method="POST"
         data-netlify="true"
         onSubmit="submit"
+        data-netlify-honeypot="bot-field"
         className='flex-1 border rounded-2xl flex flex-col gap-y-6 pb-24 p-6 items-start'
         >
+          <input 
+            type="hidden" 
+            name="form" 
+            value="contact" 
+          />
           <input 
             className='bg-transparent border-b py-3 outline-none w-full placeholder:text-white focus:border-accent transition-all' 
             type="text" name="name" required
