@@ -31,6 +31,7 @@ const Contact = () => {
         whileInView={'show'}
         viewport={{ once: false, amount: 0.3}}
         //action='https://formsubmit.co/af9221e43fb63fabbc97ae54a84b9005'
+        name='Contact'
         method='POST'
         netlify
         className='flex-1 border rounded-2xl flex flex-col gap-y-6 pb-24 p-6 items-start'
