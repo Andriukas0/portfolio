@@ -81,7 +81,7 @@ const Banner = () => {
                 spy={true}
                 button
               >
-                <button className="btn btn-sm">Work with me</button>
+                <button className="btn btn-sm">Contact me</button>
               </Link>
               <a href='https://www.linkedin.com/in/andrius-globys-03242a1aa/' className='text-gradient btn-link'>
                 My linkedin
