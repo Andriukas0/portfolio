@@ -74,13 +74,15 @@ const Banner = () => {
             whileInView={'show'}
             viewport={{once: false, amount: 0.1}} 
             className='flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0'>
-            <Link 
-              to='contact'
-              activeClass='active'
-              smooth={true}
-              spy={true}
-              button className='btn btn-lg pt-2.5'>Contact me
-            </Link>
+              <Link
+                to="contact"
+                activeClass="active"
+                smooth={true}
+                spy={true}
+                button
+              >
+                <button className="btn btn-sm">Work with me</button>
+              </Link>
               <a href='https://www.linkedin.com/in/andrius-globys-03242a1aa/' className='text-gradient btn-link'>
                 My linkedin
               </a>
