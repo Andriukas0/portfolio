@@ -30,8 +30,7 @@ const About = () => {
           >
             <h2 className="h2 text-accent">About me.</h2>
             <h3 className="h3 mb-4">
-              Hello, I'm Andrius from Lithuania, and currently I am studying at
-              Vilnius SMK.
+              Hello, I'm Andrius from Lithuania.
             </h3>
             <p className="mb-6">
               I have a passion for building computers and, I have gained a lot
@@ -43,8 +42,7 @@ const About = () => {
             <p className="mb-6">
               Over the past three years, I have honed my programming skills and
               worked with programming languages like C, C++, Java, python, and
-              C#. Nowadays, I'm delving into game development using Unity
-              Engine. I'm passionate about technology and always eager to learn
+              C#. I'm passionate about technology and always eager to learn
               more. I believe my diverse skill set and curiosity makes me a
               valuable addition to any team.
             </p>
@@ -52,7 +50,7 @@ const About = () => {
             <div className="flex gap-x-6 lg:gap-x-10 mb-12">
               <div>
                 <div className="text-[40px] font-tertiary text-gradient mb-2">
-                  {InView ? <CountUp start={0} end={30} duration={3} /> : null}
+                  {InView ? <CountUp start={0} end={10} duration={3} /> : null}
                 </div>
                 <div className="font-primary text-sm tracking-[2px]">
                   Projects <br />
