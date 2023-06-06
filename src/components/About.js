@@ -11,13 +11,13 @@ const About = () => {
   return (
     <section className="section" id="about" ref={ref}>
       <div className="container mx-auto">
-        <div className="flex flex-col gap-y-10 lg:flex-row lg:items-center lg:gap-x-20 lg:gap-y-0 h-screen">
+        <div className="flex flex-col gap-y-10 lg:flex-row lg:items-center lg:gap-x-20 lg:gap-y-0 ">
           {/*foto*/}
           <motion.div
             variants={fadeIn("right", 0.3)}
             initial="hidden"
             whileInView={"show"}
-            viewport={{ once: false, amount: 0.3 }}
+            viewport={{ once: false, amount: 0.4 }}
             className="hidden lg:flex flex-1 bg-about bg-contain bg-no-repeat h-[640px] mix-blend-lighten bg-top"
           ></motion.div>
           {/*text*/}
@@ -25,13 +25,11 @@ const About = () => {
             variants={fadeIn("left", 0.5)}
             initial="hidden"
             whileInView={"show"}
-            viewport={{ once: false, amount: 0.3 }}
+            viewport={{ once: false, amount: 0.4 }}
             className="flex-1"
           >
             <h2 className="h2 text-accent">About me.</h2>
-            <h3 className="h3 mb-4">
-              Hello, I'm Andrius from Lithuania.
-            </h3>
+            <h3 className="h3 mb-4">Hello, I'm Andrius from Lithuania.</h3>
             <p className="mb-6">
               I have a passion for building computers and, I have gained a lot
               of experience in fixing and creating computer systems from
@@ -87,7 +85,7 @@ const About = () => {
             </div>
             <div className="flex gap-x-8 items-center">
               <a href="mailto:andrius.z2000@gmail.com">
-                <button className="btn btn-lg">Message me</button>
+                <button className="btn btn-sm">Message me</button>
               </a>
               <a
                 href="https://www.facebook.com/andrius.globys.5"
