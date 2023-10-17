@@ -30,7 +30,7 @@ const Work = () => {
             From concept to completion, I have poured countless hours into making this a truly exceptional work of art.
             So take a moment to appreciate the beauty of my latest creation and join me in celebrating the power of creativity.
             </p>
-            <a href=''>
+            <a>
             <button className='btn btn-sm'>View all my projects</button>
             </a>
           </div>
