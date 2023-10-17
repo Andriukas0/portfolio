@@ -30,9 +30,6 @@ const Work = () => {
             From concept to completion, I have poured countless hours into making this a truly exceptional work of art.
             So take a moment to appreciate the beauty of my latest creation and join me in celebrating the power of creativity.
             </p>
-            <a href='https://andriusglobys.wixsite.com/my-site'>
-            <button className='btn btn-sm'>View all my projects</button>
-            </a>
           </div>
           {/* image */}
           <div className='group relative overflow-hidden border-2 border-white/50 rounded-xl'>
